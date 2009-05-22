@@ -2,6 +2,7 @@
 layout: post
 title: where to find the git community
 category: beginner
+published: false
 ---
 
 For those just learning about Git, it migt be helpful to figure out where the community of users that use the tool daily hang out. Of course, there's plenty of resources available online for those who want to learn about how to use it, but sometimes communicating with and participating in discussions is much more beneficial. 

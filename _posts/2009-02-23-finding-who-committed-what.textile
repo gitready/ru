@@ -2,6 +2,7 @@
 layout: post
 title: finding who committed what
 category: beginner
+published: false
 ---
 
 Sometimes you may find it necessary to figure out just who committed that bug, or perhaps compliment a coworker on how efficiently an algorithm was implemented. Or maybe not, you just want to know who broke the build. Luckily, the @git blame@ command can help with figuring out exactly who's responsible for which line and what commit it came from.
