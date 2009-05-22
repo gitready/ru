@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="ru-RU">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>git ready &raquo; {{ page.title }}</title>
@@ -24,19 +24,19 @@
       {{ content }}
     </div> 
     <div class="grid_2 prefix_2 links">
-      <h3 id="green">начинающий</h3>
+      <h3 id="green">начинающим</h3>
       {% for post in site.categories.beginner %}
         <a href="{{ post.url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
     <div class="grid_2 links">
-      <h3 id="yellow">продолжающий</h3>
+      <h3 id="yellow">продолжающим</h3>
       {% for post in site.categories.intermediate %}
         <a href="{{ post.url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
     <div class="grid_2 links">
-      <h3 id="red">опытный</h3>
+      <h3 id="red">опытным</h3>
       {% for post in site.categories.advanced %}
         <a href="{{ post.url }}">{{ post.title }}</a>
       {% endfor %}
