@@ -4,21 +4,21 @@ title: Установка Git
 category: beginner
 ---
 
-Наверное, это самый базовый совет: установка самой системы! Оказывается, начать пользоваться Git проще, чем вы думаете.
+Наверное, самый первый совет, который можно дать — совет по установке самой системы. Начать пользоваться Git проще, чем вы думаете.
 
-Оставьте нам комментарий, если в этом списке нет вашей любимой операционной системы, если ссылки устареют, или же если вы знаете способ проще! Кроме того, дайте нам знать, если у вас возникли проблемы при установке или компиляции.
+Если здесь не описана установка Git на вашу любимую операционную систему, или же вы знаете способ проще, оставьте нам комментарий. Кроме того, дайте нам знать, если у вас возникли проблемы при установке или компиляции.
 
 p=. "!http://farm4.static.flickr.com/3047/2754478731_6cac6d30a8_m.jpg!":http://flickr.com/photos/15708236@N07/2754478731/
 
 *Windows*
 
-Да, Git работает в Windows! Есть много отличных руководств, но "Illustrated Guide to Git on Windows":http://nathanj.github.com/gitguide/ авторства "nathanj":http://github.com/nathanj — лучшее из всех. Оно также рассказывает, как начать пользоваться системой. Качайте "Git on MSys":http://code.google.com/p/msysgit/ и приступайте к чтению. Ещё один вариант — "сборка системы вручную":http://techblogging.wordpress.com/2008/04/11/compiling-and-installing-git-on-windows-under-cygwin/ с помощью "Cygwin":http://www.cygwin.com/.
+Да, Git работает в Windows! Есть много отличных руководств, но "Illustrated Guide to Git on Windows":http://nathanj.github.com/gitguide/ авторства "nathanj":http://github.com/nathanj — лучшее из всех. В нём также  описаны основы работы с Git. Чтобы начать, просто скачайте и установите "Git on MSys":http://code.google.com/p/msysgit/. Если вы не ищете лёгких путей, то можно "собрать систему вручную":http://techblogging.wordpress.com/2008/04/11/compiling-and-installing-git-on-windows-under-cygwin/ с помощью "Cygwin":http://www.cygwin.com/.
 
 *OS X*
 
-Если у вас Mac OS 10.4 (Tiger), установите "MacPorts":http://macports.org и выполните команду @sudo port install git-core@. Git также можно "собрать вручную.":http://larrytheliquid.com/2007/12/29/compiling-git-and-git-svn-on-osx-tiger/
+Если у вас Mac OS 10.4 (Tiger), установите "MacPorts":http://macports.org и выполните команду @sudo port install git-core@. А в "этом руководстве":http://larrytheliquid.com/2007/12/29/compiling-git-and-git-svn-on-osx-tiger/ описана ручная сборка Git.
 
-В 10.5 (Leopard) установка стала гораздо проще благодаря проекту "Git OS X Installer":http://code.google.com/p/git-osx-installer/. Просто выберите самую свежую версию, подходящую для вашего процессора, и вам больше ничего не потребуется.
+В 10.5 (Leopard) установка стала гораздо проще благодаря проекту "Git OS X Installer":http://code.google.com/p/git-osx-installer/. Нужно всего лишь выбрать самую свежую версию, подходящую для вашего процессора, и установить её.
 
 *Linux*
 
@@ -30,4 +30,4 @@ p=. @apt-get install git-core@
 
 "Крис Олсэн":http://chrisolsen.org написал "отличное руководство":http://chrisolsen.org/2008/03/10/installing-git-on-ubuntu/ по сборке Git из исходных текстов в Ubuntu.
 
-Если вы хотите узнать больше, взгляните на "Git Community Book":http://book.git-scm.com/2_installing_git.html или сходите на "GitWiki":http://git.or.cz/gitwiki/Installation!
+Если вы хотите узнать больше, взгляните на "Git Community Book":http://book.git-scm.com/2_installing_git.html или сходите на "GitWiki":http://git.or.cz/gitwiki/Installation.
