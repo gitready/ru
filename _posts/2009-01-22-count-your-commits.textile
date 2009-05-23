@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: подсчёт ваших коммитов
+title: Подсчёт ваших коммитов
 category: intermediate
 ---
 
